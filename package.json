@@ -1,0 +1,17 @@
+{
+  "name": "chenjiao-server",
+  "version": "1.0.0",
+  "description": "辰交 WebSocket 服务端（监听 2684 端口）",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "init-db": "node src/db.js --init"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.11.3",
+    "ws": "^8.18.0"
+  }
+}
